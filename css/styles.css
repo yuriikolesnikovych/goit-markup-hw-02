@@ -1,0 +1,141 @@
+/* Палитра основных цветов */
+/* цвета логотипа #2196F3; #000000 */
+/* цвет меню навигации, h3 #212121, акцент, ховер #2196F3 */
+/* h1, а также цвет текста в некоторых элементов #ffffff  */
+/* цвет фона в хиро, цвет фона в футере #2F303A */
+/* контакты в шапке, контент в секции преимущества #757575 */
+/* team background, button background #F5F4FA */
+/* элементы контактов в футере rgba(255, 255, 255, 0.6); */
+/* фон в секции наши преимущества и чем мы занимаемся #E5E5E5 */
+
+:root {
+  --h2-title-color: #212121;
+  --h3-title-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.nav-contact .link {
+  color: #757575;
+}
+
+.nav-contact .link:hover,
+.nav-contact .link:focus {
+  color: var(--accent-color);
+}
+
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+}
+
+/* стили для index.html */
+/* heroes */
+.heroes {
+  background-color: #2f303a;
+}
+
+.heroes .title {
+  color: #ffffff;
+}
+
+.heroes .button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* Секции */
+
+.hidden-title {
+  color: #e5e5e5;
+}
+
+.list-title {
+  color: var(--h3-title-color);
+}
+
+.section-title {
+  color: var(--h2-title-color);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-background {
+  background-color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo-web {
+  color: #2196f3;
+}
+
+.footer .logo-studio {
+  color: #ffffff;
+}
+
+.address {
+  color: #ffffff;
+}
+
+.special-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.special-link:hover,
+.special-link:focus {
+  color: #2196f3;
+}
+
+/* стили для portfolio.html */
+
+.button-portfolio {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-title {
+  color: #212121;
+}
+
+.portfolio-type {
+  color: #757575;
+}
