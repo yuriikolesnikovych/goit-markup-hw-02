@@ -109,6 +109,12 @@ body {
   letter-spacing: 0.06em;
 }
 
+  .heroes .button:hover,
+  .heroes .button:focus {
+    background-color: #ffffff;
+    color: #2196f3;
+  }
+
 /* Секции */
 
 .hidden-title {
