@@ -1,0 +1,168 @@
+:root {
+  --accent-text-color: #2196f3;
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --bg-title-color: #ffffff;
+}
+
+.page {
+  background-color: var(--bg-title-color);
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+}
+
+/* =====Палитра цветов===== 
+Логотип, акцент ховер #2196F3
+Навигация основной цвет, h2 #212121;
+Вторичный цвет навигация, параграфы #757575
+Фон навигации, h1, кнопка #FFFFFF
+Бэкграунд heroes + footer #2F303A;
+Бэкграунд секции advantage #E5E5E5;
+Бэкграунд секции team #F5F4FA
+Footer rgba(255, 255, 255, 0.6)
+*/
+
+/* ===== INDEX ===== */
+/* ===== HEADER ====== */
+
+.logo-web {
+  color: var(--accent-text-color);
+}
+
+.logo-studio {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.contacts-nav .link {
+  color: var(--main-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* ===== HERO ====== */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--bg-title-color);
+}
+
+.hero-btn {
+  color: var(--bg-title-color);
+  background-color: var(--accent-text-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--accent-text-color);
+  background-color: var(--bg-title-color);
+}
+
+.cursor-btn {
+  cursor: pointer;
+}
+
+/* ===== ADVANTAGE ====== */
+.advantage-section {
+  background-color: #e5e5e5;
+}
+.advantage-list .adv-title {
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+}
+
+/* ===== ABOUT US ====== */
+.about-section {
+  background-color: #e5e5e5;
+}
+
+.about-section .section-title {
+  color: var(--secondary-text-color);
+}
+
+/* ===== TEAM ====== */
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-section .section-title {
+  color: var(--secondary-text-color);
+}
+
+.team-section .content-title {
+  color: var(--secondary-text-color);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo-web {
+  color: var(--accent-text-color);
+}
+
+.footer .logo-studio {
+  color: var(--bg-title-color);
+}
+
+.address {
+  color: var(--bg-title-color);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-text-color);
+}
+
+.footer .special-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .special-link:hover,
+.footer .special-link:focus {
+  color: var(--accent-text-color);
+}
+
+/* ====== PORTFOLIO PAGE ====== */
+.portfolio-btn {
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--bg-title-color);
+  background-color: var(--accent-text-color);
+}
+
+.portfolio-title {
+  color: var(--secondary-text-color);
+}
+
+.portfolio-type {
+  color: var(--main-text-color);
+}
